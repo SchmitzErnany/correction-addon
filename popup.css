@@ -1,0 +1,14 @@
+.container {
+    margin: 2rem;
+}
+
+html body {
+    background: #f988db;
+}
+
+textarea {
+    margin-top: 1rem;
+    border-radius: 0rem;
+    width: 15rem;
+    height: 5rem;
+}

@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "CatchLinx",
+    "description": "Shows recent YT video links from JQQ",
+    "version": "1.0",
+    "action": {
+        "default_icon": "linx.png",
+        "default_popup": "popup.html"
+    }
+}

@@ -3,8 +3,21 @@
     "name": "CatchLinx",
     "description": "Shows recent YT video links from JQQ",
     "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
     "action": {
         "default_icon": "linx.png",
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
 }
